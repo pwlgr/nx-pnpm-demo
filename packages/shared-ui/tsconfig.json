@@ -4,8 +4,10 @@
     "allowJs": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "module": "CommonJS",
-    "outDir": "./dist"
+    "module": "es6",
+    "target": "es5",
+    "outDir": "./dist",
+    "moduleResolution": "node"
   },
   "include": ["."],
   "exclude": ["dist", "node_modules", "**/*.spec.ts"]
